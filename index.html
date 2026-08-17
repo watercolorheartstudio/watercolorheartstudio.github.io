@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watercolor Heart</title>
+<style>
+:root{--ink:#3f4a45;--paper:#fffaf5;--rose:#c98f91;--sage:#a9b8a7;--cream:#f3e8dc}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;color:var(--ink);background:var(--paper);line-height:1.7}
+nav{position:sticky;top:0;background:rgba(255,250,245,.94);padding:18px 7%;display:flex;justify-content:space-between;align-items:center;z-index:5;border-bottom:1px solid #eee3d8}
+.logo{font-size:1.35rem;letter-spacing:.08em}nav a{color:var(--ink);text-decoration:none;margin-left:22px;font-family:Arial,sans-serif;font-size:.9rem}
+.hero{min-height:78vh;display:grid;place-items:center;text-align:center;padding:80px 8%;background:radial-gradient(circle at 30% 30%,#ead0cf 0 8%,transparent 28%),radial-gradient(circle at 75% 60%,#dbe5d7 0 9%,transparent 30%),var(--paper)}
+.heart{font-size:5rem;color:var(--rose);margin:0}.hero h1{font-size:clamp(3rem,8vw,6rem);margin:0;font-weight:normal}.hero p{font-size:1.25rem;max-width:600px;margin:20px auto 30px}
+.btn{display:inline-block;padding:13px 25px;background:var(--ink);color:white;text-decoration:none;border-radius:30px;font-family:Arial,sans-serif}
+section{padding:80px 8%;max-width:1100px;margin:auto}h2{text-align:center;font-size:2.4rem;font-weight:normal;margin-top:0}
+.about{text-align:center;max-width:720px}.about p{font-size:1.1rem}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{aspect-ratio:1/1;background:linear-gradient(135deg,#ead4cf,#dbe5d7,#f0e1cc);display:grid;place-items:center;text-align:center;padding:25px;color:#536057}.card span{font-size:1.1rem}
+.contact{text-align:center;background:var(--cream);max-width:none}
+footer{text-align:center;padding:35px;font-family:Arial,sans-serif;font-size:.85rem}
+@media(max-width:700px){nav a{margin-left:10px}.gallery{grid-template-columns:1fr 1fr}.gallery .card:last-child{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="logo">WATERCOLOR HEART</div><div><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+<div><div class="heart">♡</div><h1>Watercolor Heart</h1>
+<p>Watercolor, made with joy. Little pieces of beauty inspired by everyday life, places we’ve called home, and the moments worth remembering.</p>
+<a class="btn" href="#gallery">Explore the art</a></div>
+</header>
+
+<section id="about" class="about">
+<h2>Hi, I’m Deanna.</h2>
+<p>I’m a mama of three, military wife, dog & cat mom, and the heart behind Watercolor Heart. I’m a beginner watercolor artist learning to create beautiful things simply for the joy of it.</p>
+<p>From WA → AZ → NV → CA → VA → Bahrain → WA → VA, home has been many places. My art is a little collection of the beauty I find along the way.</p>
+</section>
+
+<section id="gallery">
+<h2>A little gallery</h2>
+<div class="gallery">
+<div class="card"><span>Botanical<br>dreams</span></div>
+<div class="card"><span>Places<br>we've loved</span></div>
+<div class="card"><span>Little<br>joys</span></div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Let’s stay connected.</h2>
+<p>Follow along as I learn, paint, and share the little things that make my heart happy.</p>
+<a class="btn" href="https://instagram.com/" target="_blank">Instagram</a>
+</section>
+
+<footer>© 2026 Watercolor Heart · Created with joy ♡</footer>
+</body>
+</html>
